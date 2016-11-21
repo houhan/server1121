@@ -310,11 +310,8 @@ app.use(function(req, res, next) {
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	next();
 });
-/*
+
 app.listen(5000, function(){
   console.log('listening on *:5000');
 });
 
-*/
-app.listen(process.env.PORT || 5000);
-//console.log('port ' + (process.env.PORT || 5000));
